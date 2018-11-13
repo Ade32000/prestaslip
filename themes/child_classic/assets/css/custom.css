@@ -1,0 +1,161 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+ /*#header{ background: red !important; }*/
+/*body{
+	display: flex;
+	}*/
+
+body{
+/*font-family: 'Roboto',sans-serif;*/
+	font-family: "Cantarell", sans-serif, !important;
+
+}
+/*.header-nav{
+width: 1585px;
+height: 30px;
+margin: 0;
+}
+#header{
+margin-bottom: 0 !important;
+}
+*/
+/*.container{
+max-width: 95%;
+margin-left: 5%;
+margin-right: 5%;
+width: 1248px !important;
+height: 110px !important;
+}*/
+
+/*#_desktop_logo h1, #logo, .col-md-2 .hidden-sm-down{
+width: 90px !important;
+height: 110px;
+margin: 0;
+}
+#content-wrapper{
+max-width: 100%;
+
+}*/
+/*.logo:before{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+border-radius: 100%;
+
+}*/
+
+/*#_desktop_logo{
+width: 90%;
+height: 110%;
+}*/
+
+#carousel{
+	/*max-width: 65%;*/
+	/*max-height: 45%;*/
+	/*float: right;*/
+	background-color: white;
+}
+
+figure img{
+	margin: 0;
+	max-width: 60%;
+	float: right;
+}
+.caption-description{
+	font-size: 200%;
+	font-weight: 300;
+}
+
+/*div textes du caroussel*/
+#slider_text, #slider_text2, #slider_text3{
+	font-size: 1.25rem;
+	text-align: left;
+	color: #284384;
+}
+#slider_text h5, #slider_text2 h5, #slider_text3 h5{
+	font-family: 'Roboto',sans-serif;
+	margin-bottom: 1.5rem;
+	letter-spacing: .45rem;
+	font-size: 75%;
+	font-weight: 100;
+}
+#slider_text h1, #slider_text2 h1, #slider_text3 h1{
+	font-weight: 900 !important;
+	font-size: 200%;
+}
+
+/*Bouton premier slide*/
+#jeleveux, #jebrode, #pourlui, #pourelle{
+	margin-right: 15px;
+	position: relative;
+	display: inline-block;
+	/*margin-left: 16px;*/
+	border: 5px solid #3671DE;
+	background-color: #3671DE;
+	color: #ffffff;
+	font-weight: 900;
+	/*background: #284384;*/
+	cursor: pointer;
+	font-size: 0.875rem;
+	line-height: 1rem;
+	vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	padding: calc( 1rem - 1px) 1rem !important;
+	text-transform: uppercase;
+	transition: all .1s ease-in-out;
+	margin-bottom: 2px;
+}
+
+.col-md-2, .col-md-2 h1, .col-md-2 h1 a{
+	padding: 0;
+	margin: 0;
+	max-width: 110px;
+	max-height: 110px;
+}
+
+.col-md-10{
+	padding: 0;
+}
+
+
+.menu, #top-menu, .row{
+	/*font-family: @import url('https://fonts.googleapis.com/css?family=Cantarell');*/
+	/*font-family: 'Cantarell', sans-serif, !important;*/
+	display: flex;
+	align-items: center;
+	margin: 0;
+	vertical-align: middle;
+
+}
+
+	.dropdown-item{
+		font-family: "Cantarell", sans-serif, !important;
+		font-size: 14px;
+		letter-spacing: normal;
+		color: #e00f21;
+
+	}
+	#custom-text{
+		margin: 0;
+		text-align: left;
+		background-color: #284384 !important;
+		width: 100%;
+	}
+	.header-nav{
+		font-family: 'Roboto',sans-serif;
+	}
+	/*.clearfix{
+		max-width: 50px;
+	}*/
+	.blockcart{
+		text-align: right;
+	}
+	#_desktop_language_selector, .user-info, .goog-te-gadget-simple{
+		float: right;
+	}
+	
